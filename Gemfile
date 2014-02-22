@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.0'
 gem 'rails', '4.0.3'
 gem 'sass-rails', '~> 4.0.1'
 gem 'uglifier', '~> 2.4.0'
@@ -8,6 +8,7 @@ gem 'jquery-rails', '~> 3.0.4'
 gem 'turbolinks', '~> 2.1.0'
 gem 'jbuilder', '~> 1.5.3'
 gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'pg'
 
 group :doc do
   gem 'sdoc', require: false
