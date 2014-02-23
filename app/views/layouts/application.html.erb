@@ -14,20 +14,10 @@
       <%= render 'layouts/navigation' %>
     </header>
 
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center">
-          <%= render 'layouts/messages' %>
-        </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <%= yield %>
       </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <%= yield %>
-        </div>
-      </div>
-
     </div>
   </div>
 
