@@ -50,3 +50,10 @@ states.each do |state|
     s.financials = state[:financials]
   end
 end
+
+indicadores.each do |ind|
+  Indicators.create do |i|
+    i.name = ind[:name]
+    i.value = ind[:value] 
+  end
+end

@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.5.3'
 gem 'bcrypt', '~> 3.1.2'
 gem 'pg'
 gem "geocoder"
+gem "jqvmap-rails"
 
 group :doc do
   gem 'sdoc', require: false
