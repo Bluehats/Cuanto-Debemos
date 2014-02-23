@@ -11,3 +11,9 @@
   Patrulla: <%= @debt / 427930 %>
   Tonelada de Tortilla <%= @debt / 15000 %>
 </div>
+<script>
+
+var myCounter = new flipCounter("counter", {inc: <%= @debt/1224732 * 1843 %>, pace: 1, auto:false});
+
+myCounter.incrementTo(<%= @debt %>)
+</script>
