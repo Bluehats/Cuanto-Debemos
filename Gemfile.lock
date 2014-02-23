@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/acrogenesis/jqvmap-rails.git
+  revision: 56aded7c3b9a64b7d0d001fb73ed332d9190a2f3
+  specs:
+    jqvmap-rails (2.1.2.2)
+      jquery-rails
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,8 +86,6 @@ GEM
     jquery-turbolinks (2.0.2)
       railties (>= 3.1.0)
       turbolinks
-    jqvmap-rails (2.1.2.2)
-      jquery-rails
     json (1.8.1)
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
@@ -185,7 +190,7 @@ DEPENDENCIES
   jbuilder (~> 1.5.3)
   jquery-rails (~> 3.0.4)
   jquery-turbolinks
-  jqvmap-rails
+  jqvmap-rails!
   kaminari (~> 0.15.0)
   pg
   rails (= 4.0.3)
