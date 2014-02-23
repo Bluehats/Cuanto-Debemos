@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'cuantodebemosregular';
+    src: url('cuantodebemos-regular-webfont.eot');
+    src: url('cuantodebemos-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cuantodebemos-regular-webfont.woff') format('woff'),
+         url('cuantodebemos-regular-webfont.ttf') format('truetype'),
+         url('cuantodebemos-regular-webfont.svg#cuantodebemosregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
