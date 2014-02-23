@@ -47,6 +47,13 @@ indicadores =[
   {:name =>"KM Carretera", :value =>427930}
 ]
 
+indicadores.each do |indicators|
+  Indicator.create do |i|
+    i.name = indicators[:name]
+    i.value = indicators[:value]
+  end
+end
+
 states.each do |state|
   State.create do |s|
     s.name = state[:name]
