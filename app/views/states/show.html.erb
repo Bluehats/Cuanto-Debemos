@@ -8,62 +8,50 @@
 		<ul class="tiles">
 		<div class="col1 clearfix">
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Casa Infonavit"].round %></b><br/> Casas Infonavit
+			<div><p><span class="icon">D</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Casa Infonavit"].round) %></b><br/> Casas Infonavit
 				</p>
 			</div>
 			</li>
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Escuela"].round %></b><br/> Escuelas
+			<div><p><span class="icon">J</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Hospital"].round) %></b><br/> Hospitales
 			</p></div>
 			</li>
+
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Parque"].round %></b><br/> Parques
+			<div><p><span class="icon">I</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Club América"].round) %></b><br/> Club's America
 			</p></div>
 			</li>
 	    </div>
 		<div class="col2 clearfix">
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-			<b><%= @debt/@prices["Patrulla"].round %></b><br/> Patrullas
+			<div><p><span class="icon">B</span><br>
+			<b><%= number_with_delimiter(@debt/@prices["Patrulla"].round) %></b><br/> Patrullas
 			</p></div>
 			</li>
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Estadio Azteca"].round %></b><br/> Estadios Azteca
-			</p></div>
-			</li>
-			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Beca"].round %></b><br/> Becas
+			<div><p><span class="icon">E</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Estadio Azteca"].round) %></b><br/> Estadios Azteca
 			</p></div>
 			</li>
 	    </div>
 		<div class="col3 clearfix">
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Escuela"].round %></b><br/> Escuelas
+			<div><p><span class="icon">A</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Ambulancia"].round) %></b><br/> Ambulancias
 			</p></div>
 			</li>
+
 			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["Club América"].round %></b><br/> Club's America
-			</p></div>
-			</li>
-			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>
-				<b><%= @debt/@prices["KM Carretera"].round %></b><br/> Parques
+			<div><p><span class="icon">G</span><br>
+				<b><%= number_with_delimiter(@debt/@prices["Beca"].round) %></b><br/> Becas
 			</p></div>
 			</li>
 	    </div>
 	</div>
 
-			Casas Infonavit: <%= @prices["Casa Infonavit"] %>
-			Estadio Azteca: <%= @prices["Estadio Azteca"] %>
-			Patrulla: <%= @prices["Patrulla"] %>
-			Escuela <%= @prices["Escuela"] %>
 
 </div>
 </div>

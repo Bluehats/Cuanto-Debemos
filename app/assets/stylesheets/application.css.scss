@@ -23,15 +23,41 @@
 .sidebar #mapa_mexico svg{
 	margin-left: 35px;
 }
-
 #infografia h1{
-	margin-left: 1em;
+	font-family: "Oleo Script",cursive,sans-serif;
+	font-size: 88px;
+	color: #000;
+	text-shadow: 2px 2px 2px #BFBFBF;
+	left:0;
 }
 
 #counter{
-	margin-bottom:200px;
+	left:0;
+	margin-bottom:4em;
+	zoom: 0.5;
 }
 #infografia{
 	width: 80%;
 	margin: 0 auto;
+	position:relative;
+}
+.equivalencias-wrapper{
+    left:0;
+	margin-left:0;
+	padding-left:0;
+}
+
+.dashboard{
+    left:0;
+	margin-left:0;
+	padding-left:0;
+}
+
+.tiles{
+    left:0;
+	margin-left:0;
+	padding-left:0;
+}
+.tiles .icon{
+	font-family: 'cuantodebemosregular';
 }

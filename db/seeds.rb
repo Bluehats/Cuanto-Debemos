@@ -39,11 +39,11 @@ indicadores =[
   {:name =>"Casa Infonavit", :value =>350000},
   {:name =>"Club América", :value => 642000000},
   {:name =>"Patrulla", :value =>427930},
-  {:name =>"Ambulancia", :value =>427930},
+  {:name =>"Ambulancia", :value =>850000},
   {:name =>"Escuela", :value =>427930}, 
   {:name =>"Parque", :value =>427930},
-  {:name =>"Hospital", :value =>427930},
-  {:name =>"Beca", :value =>427930},
+  {:name =>"Hospital", :value =>17599985},
+  {:name =>"Beca", :value =>780021},
   {:name =>"KM Carretera", :value =>427930}
 ]
 

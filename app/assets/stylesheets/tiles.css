@@ -19,7 +19,7 @@
   src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff')
 }
 ul {
-  list-style-type: none
+  list-style-type: none;
   margin: 0;
 }
 .equivalencias-wrapper{
@@ -111,6 +111,14 @@ font-family: 'Lato', sans-serif;
 .tile-1:hover {
   background-color: white;
   color: #CB0D70;
+}
+
+.tile-1 p span,
+.tile-1 p span {
+  font-size: 1.5em;
+  margin-left: .4em;
+  position: relative;
+  top: .15em
 }
 
 .tile-2xbig{
