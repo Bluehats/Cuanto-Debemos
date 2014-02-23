@@ -18,7 +18,7 @@
 
 <script>
 
-var myCounter = new flipCounter("counter", {inc: <%= @debt/1224732 * 1843 %>, pace: 1, auto:false});
+var myCounter = new flipCounter("counter", {inc: <%= @debt/1224732 * 1843 %>, pace: 0.1, auto:false});
 
 myCounter.incrementTo(<%= @debt %>)
 </script>

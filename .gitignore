@@ -5,6 +5,7 @@
 # the gems to be installed globally.
 # Can be uncommented if really necessary.
 # /.bundle
+/.bundle/install.log
 
 # Ignore the bundle directory itself.
 /vendor/bundle
