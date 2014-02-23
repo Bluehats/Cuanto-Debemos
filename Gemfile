@@ -10,7 +10,7 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.5.3'
 gem 'bcrypt', '~> 3.1.2'
 gem 'pg'
-gem "geocoder"
+gem "rest-client"
 
 group :doc do
   gem 'sdoc', require: false
@@ -18,8 +18,13 @@ end
 
 # development gems
 group :development, :test do
-  gem 'sqlite3', '~> 1.3.8'    # dev & test database
   gem 'figaro', '~> 0.7.0'     # env variables
+end
+
+group :development do
+  gem 'debugger'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 # Paging
