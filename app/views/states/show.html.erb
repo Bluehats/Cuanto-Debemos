@@ -4,41 +4,66 @@
 <p><b>Personas</b>: <%= @state.financials["people"] %></p>
 
 <div id="counter" class="flip-counter"></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <div class="equivalencias-wrapper">
 	<div class="dashboard clearfix">
 		<ul class="tiles">
 		<div class="col1 clearfix">
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Casa Infonavit"].round %></b><br/> Casas Infonavit
+				</p>
+			</div>
 			</li>
-			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Escuela"].round %></b><br/> Escuelas
+			</p></div>
 			</li>
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Parque"].round %></b><br/> Parques
+			</p></div>
 			</li>
 	    </div>
 		<div class="col2 clearfix">
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+			<b><%= @debt/@prices["Patrulla"].round %></b><br/> Patrullas
+			</p></div>
 			</li>
-			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Estadio Azteca"].round %></b><br/> Estadios Azteca
+			</p></div>
 			</li>
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Beca"].round %></b><br/> Becas
+			</p></div>
 			</li>
 	    </div>
 		<div class="col3 clearfix">
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Escuela"].round %></b><br/> Escuelas
+			</p></div>
 			</li>
-			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["Club América"].round %></b><br/> Club's America
+			</p></div>
 			</li>
-			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
-			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			<li class="tile tile-big tile-1" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>
+				<b><%= @debt/@prices["KM Carretera"].round %></b><br/> Parques
+			</p></div>
 			</li>
 	    </div>
 	</div>
