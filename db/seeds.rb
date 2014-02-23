@@ -40,6 +40,7 @@ indicadores =[
   {:name =>"Tonelada de Tortilla", :value =>15000},
   {:name =>"Club América", :value => 642000000},
   {:name =>"Patrulla", :value =>427930},
+  {:name =>"Ambulancia", :value =>427930},
   {:name =>"Escuela", :value =>427930},
   {:name =>"Parque", :value =>427930},
   {:name =>"Hospital", :value =>427930},
