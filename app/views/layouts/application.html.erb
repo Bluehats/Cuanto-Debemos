@@ -16,7 +16,12 @@
 
     <div class="row">
       <div class="col-sm-12">
-        <%= yield %>
+        <div class="col-xs-4">
+          <%=render 'layouts/sidebar'%>
+        </div>
+        <div class="col-xs-8">
+          <%= yield %>
+        </div>
       </div>
     </div>
   </div>
