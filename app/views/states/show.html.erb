@@ -4,11 +4,50 @@
 <p><b>Personas</b>: <%= @state.financials["people"] %></p>
 
 <div id="counter" class="flip-counter"></div>
-<div>
-  Casas Infonavit: <%= @debt / 350000 %>
-  Estadio Azteca: 
-  Patrulla: <%= @debt / 427930 %>
-  Tonelada de Tortilla <%= @debt / 15000 %>
+
+<div class="equivalencias-wrapper">
+	<div class="dashboard clearfix">
+		<ul class="tiles">
+		<div class="col1 clearfix">
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+	    </div>
+		<div class="col2 clearfix">
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+	    </div>
+		<div class="col3 clearfix">
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-6" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
+			<div><p><span class="icon-cloudy"></span>Infonavit</p></div>
+			</li>
+	    </div>
+	</div>
+
+			Casas Infonavit: <%= @prices["Casa Infonavit"] %>
+			Estadio Azteca: <%= @prices["Estadio Azteca"] %>
+			Patrulla: <%= @prices["Patrulla"] %>
+			Escuela <%= @prices["Escuela"] %>
+
 </div>
 <script>
 
