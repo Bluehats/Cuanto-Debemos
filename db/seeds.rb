@@ -34,6 +34,15 @@ states = [
   {:name=>"Zacatecas"           ,:state=>32,   :financials=>{:debt=>"5842.1",    :people=>"1490668"} }
 ]
 
+indicadores =[
+  {:name => "Estadio Azteca", :value=>200000000},
+  {:name =>"Casa Infonavit", :value =>350000},
+  {:name =>"Tonelada de Tortilla", :value =>15000},
+  {:name =>"Club América", :value => 642000000},
+  {:name =>"Patrulla", :value =>427930}
+
+]
+
 states.each do |state|
   State.create do |s|
     s.name = state[:name]
