@@ -20,10 +20,10 @@
 }
 ul {
   list-style-type: none
+  margin: 0;
 }
 .equivalencias-wrapper{
 	font-family: 'Lato', sans-serif;
-	padding: 2em .5em;
 	width: 100%;
 	height:100%;
 	perspective: 3300px;
@@ -31,9 +31,7 @@ ul {
 }
 
 .dashboard {
-  margin: 0 auto;
   width: 100%;
-  padding: 1em;
   transform: translateX(200px);
   -webkit-transform: translateX(200px);
   -ms-transform: translateX(200px);
@@ -208,7 +206,7 @@ font-family: 'Lato', sans-serif;
   }
  
   .col1 {
-    margin-left: 2em
+    margin-left: 0
   }
   .page-title{
     font-size:3.5em;

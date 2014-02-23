@@ -7,3 +7,30 @@
 @import "framework_and_overrides";
 @import "flipcounter";
 @import "tiles.css";
+
+.sidebar{
+	background: url(image_path("background.png")) repeat scroll 0% 0% transparent;
+	height:1024px;
+}
+.sidebar h1{
+	font-family: "Oleo Script",cursive,sans-serif;
+	text-align: center;
+	font-size: 88px;
+	color: #CB0E70;
+	text-shadow: 0px -1px 0px #CF84AC, 0px 1px 0px #8E094E, 0px 0px 40px #000;
+}
+.sidebar #mapa_mexico svg{
+	margin-left: 35px;
+}
+
+#infografia h1{
+	margin-left: 1em;
+}
+
+#counter{
+	margin-bottom:200px;
+}
+#infografia{
+	width: 80%;
+	margin: 0 auto;
+}
