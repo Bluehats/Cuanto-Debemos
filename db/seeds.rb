@@ -40,6 +40,7 @@ indicadores =[
   {:name =>"Tonelada de Tortilla", :value =>15000},
   {:name =>"Club América", :value => 642000000},
   {:name =>"Patrulla", :value =>427930},
+  {:name =>"Ambulancia", :value =>427930},
   {:name =>"Escuela", :value =>427930},
   {:name =>"Parque", :value =>427930},
   {:name =>"Hospital", :value =>427930},
@@ -59,12 +60,5 @@ states.each do |state|
     s.name = state[:name]
     s.state = state[:state] #this is the offical state number according to IFE
     s.financials = state[:financials]
-  end
-end
-
-indicadores.each do |ind|
-  Indicators.create do |i|
-    i.name = ind[:name]
-    i.value = ind[:value] 
   end
 end
