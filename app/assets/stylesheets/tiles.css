@@ -94,7 +94,7 @@ font-family: 'Lato', sans-serif;
   background-color: #fff;
   color: #333;
   position:relative;
-  transition: background-color 0.2s ease-out
+  transition: background-color 0.2s ease-out;
   -webkit-transition: background-color 0.2s ease-out;
   -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out
