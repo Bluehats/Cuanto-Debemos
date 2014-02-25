@@ -14,7 +14,7 @@ states = [
   {:name=>"Guerrero"            ,:state=>12,   :financials=>{:debt=>"3538.3",    :people=>"3388768"} },
   {:name=>"Hidalgo"             ,:state=>13,   :financials=>{:debt=>"4043.1",    :people=>"2665018"} },
   {:name=>"Jalisco"             ,:state=>14,   :financials=>{:debt=>"26944.6",   :people=>"7350682"} },
-  {:name=>"México"              ,:state=>15,   :financials=>{:debt=>"39622.3",   :people=>"15175862"} },
+  {:name=>"Estado de México"    ,:state=>15,   :financials=>{:debt=>"39622.3",   :people=>"15175862"} },
   {:name=>"Michoacán"           ,:state=>16,   :financials=>{:debt=>"15531.9",   :people=>"4351037"} },
   {:name=>"Morelos"             ,:state=>17,   :financials=>{:debt=>"4653.6",    :people=>"1777227"} },
   {:name=>"Nayarit"             ,:state=>18,   :financials=>{:debt=>"6455.2",    :people=>"1084979"} },
@@ -53,6 +53,7 @@ indicadores.each do |indicators|
     i.value = indicators[:value]
   end
 end
+
 
 states.each do |state|
   State.create do |s|
