@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
 
   def home
+    
+    @ip
     @region = JSON.parse(RestClient.get("http://freegeoip.net/json/#{request.ip}"))['region_code']
 
     unless @region.to_i.between?(1,32)

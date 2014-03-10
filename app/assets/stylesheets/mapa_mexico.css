@@ -11,5 +11,5 @@
 }
 
 body{
-	background: url("http://flipclockjs.com/_themes/flipclockjs/img/binding_dark.png") repeat scroll 0% 0% transparent;
+	background: url(asset_path("binding_dark.png")) repeat scroll 0% 0% transparent;
 }
