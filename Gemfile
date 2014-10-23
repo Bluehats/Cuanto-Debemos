@@ -10,8 +10,10 @@ gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.5.3'
 gem 'bcrypt', '~> 3.1.2'
 gem 'pg'
-gem "jqvmap-rails", github: "acrogenesis/jqvmap-rails"
-gem "rest-client"
+gem 'jqvmap-rails', github: 'acrogenesis/jqvmap-rails'
+gem 'rest-client'
+
+gem 'unicorn'
 
 group :doc do
   gem 'sdoc', require: false
