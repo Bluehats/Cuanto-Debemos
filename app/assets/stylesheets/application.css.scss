@@ -6,57 +6,57 @@
  */
 @import "framework_and_overrides";
 @import "flipcounter";
-@import "tiles.css";
-@import "font.css";
+@import "tiles";
+@import "font";
 
 .sidebar{
-	background: url(image_path("background.png")) repeat scroll 0% 0% transparent;
-	height:1024px;
+  background: url(image_path("background.png")) repeat scroll 0% 0% transparent;
+  height:1024px;
 }
 .sidebar h1{
-	font-family: "Oleo Script",cursive,sans-serif;
-	text-align: center;
-	font-size: 88px;
-	color: #CB0E70;
-	text-shadow: 0px -1px 0px #CF84AC, 0px 1px 0px #8E094E, 0px 0px 40px #000;
+  font-family: "Oleo Script",cursive,sans-serif;
+  text-align: center;
+  font-size: 88px;
+  color: #CB0E70;
+  text-shadow: 0px -1px 0px #CF84AC, 0px 1px 0px #8E094E, 0px 0px 40px #000;
 }
 .sidebar #mapa_mexico svg{
-	margin-left: 35px;
+  margin-left: 35px;
 }
 #infografia h1{
-	font-family: "Oleo Script",cursive,sans-serif;
-	font-size: 88px;
-	color: #000;
-	text-shadow: 2px 2px 2px #BFBFBF;
-	left:0;
+  font-family: "Oleo Script",cursive,sans-serif;
+  font-size: 88px;
+  color: #000;
+  text-shadow: 2px 2px 2px #BFBFBF;
+  left:0;
 }
 
 #counter{
-	left:0;
-	margin-bottom:4em;
+  left:0;
+  margin-bottom:4em;
 }
 #infografia{
-	width: 80%;
-	margin: 0 auto;
-	position:relative;
+  width: 80%;
+  margin: 0 auto;
+  position:relative;
 }
 .equivalencias-wrapper{
     left:0;
-	margin-left:0;
-	padding-left:0;
+  margin-left:0;
+  padding-left:0;
 }
 
 .dashboard{
     left:0;
-	margin-left:0;
-	padding-left:0;
+  margin-left:0;
+  padding-left:0;
 }
 
 .tiles{
     left:0;
-	margin-left:0;
-	padding-left:0;
+  margin-left:0;
+  padding-left:0;
 }
 .tiles .icon{
-	font-family: 'cuantodebemosregular';
+  font-family: 'cuantodebemosregular';
 }
