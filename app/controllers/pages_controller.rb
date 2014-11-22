@@ -1,15 +1,12 @@
 class PagesController < ApplicationController
-
   def home
-    
-    @ip
-    @region = JSON.parse(RestClient.get("http://freegeoip.net/json/#{request.ip}"))['region_code']
+    @request = request
+    # @region = JSON.parse(RestClient.get("http://freegeoip.net/json/#{request.ip}"))['region_code']
 
-    unless @region.to_i.between?(1,32)
-      @region = 19
-    end
+    # unless @region.to_i.between?(1,32)
+      # @region = 19
+    # end
 
-    redirect_to state_path(@region)
+    # redirect_to state_path(@region)
   end
-
 end
